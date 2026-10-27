@@ -1,0 +1,52 @@
+{
+  "plans": [
+    {
+      "product_id": "com.bieny.minus.pro.yearly",
+      "title": {
+        "zh-Hans": "年会员",
+        "en": "Annual"
+      },
+      "subtitle": {
+        "zh-Hans": "一年无限整理，约省 64%",
+        "en": "Unlimited organizing for one year, save about 64%"
+      },
+      "badge": {
+        "zh-Hans": "推荐",
+        "en": "BEST VALUE"
+      },
+      "price_suffix": {
+        "zh-Hans": "/年",
+        "en": "/year"
+      },
+      "recommended": true
+    },
+    {
+      "product_id": "com.bieny.minus.pro.monthly",
+      "title": {
+        "zh-Hans": "月会员",
+        "en": "Monthly"
+      },
+      "subtitle": {
+        "zh-Hans": "按月订阅，随时可取消",
+        "en": "Monthly subscription, cancel anytime"
+      },
+      "price_suffix": {
+        "zh-Hans": "/月",
+        "en": "/month"
+      },
+      "recommended": false
+    },
+    {
+      "product_id": "com.bieny.minus.pro.lifetime",
+      "title": {
+        "zh-Hans": "永久解锁",
+        "en": "Lifetime"
+      },
+      "subtitle": {
+        "zh-Hans": "一次购买，永久使用",
+        "en": "One-time purchase, lifetime access"
+      },
+      "recommended": false
+    }
+  ]
+}

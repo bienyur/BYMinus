@@ -1,0 +1,5 @@
+DerivedData/
+DeviceDerivedData/
+.DS_Store
+# 个人的 Xcode 界面状态和 scheme 排序，不入库
+xcuserdata/

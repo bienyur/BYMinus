@@ -1,0 +1,3 @@
+"CFBundleDisplayName" = "Minus";
+"NSPhotoLibraryUsageDescription" = "用于读取照片和视频，并在本机完成分类和整理。";
+"NSPhotoLibraryAddUsageDescription" = "用于将整理后的照片保存到相册。";

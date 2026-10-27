@@ -1,0 +1,3 @@
+"CFBundleDisplayName" = "Minus";
+"NSPhotoLibraryUsageDescription" = "Minus needs access to your photos and videos to organize and analyze them privately on this device.";
+"NSPhotoLibraryAddUsageDescription" = "Minus needs permission to save organized photos to your library.";

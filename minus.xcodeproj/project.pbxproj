@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 /* MinusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000011 /* MinusApp.swift */; };
+		A10000000000000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000012 /* ContentView.swift */; };
+		A10000000000000000000003 /* PhotoLibraryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000013 /* PhotoLibraryStore.swift */; };
+		A10000000000000000000004 /* LaunchAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000014 /* LaunchAnimationView.swift */; };
+		A10000000000000000000005 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000015 /* Assets.xcassets */; };
+		A10000000000000000000006 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000017 /* OnboardingView.swift */; };
+		A10000000000000000000007 /* StoreShowcaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000018 /* StoreShowcaseView.swift */; };
+		A10000000000000000000008 /* PurchaseStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000019 /* PurchaseStore.swift */; };
+		A10000000000000000000009 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000001A /* PaywallView.swift */; };
+		A1000000000000000000000A /* RemoteConfigStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000001B /* RemoteConfigStore.swift */; };
+		A1000000000000000000000B /* AccountStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000001C /* AccountStore.swift */; };
+		A1000000000000000000000C /* AnalyticsReporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000001D /* AnalyticsReporter.swift */; };
+		A10000000000000000000070 /* FeedbackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000071 /* FeedbackView.swift */; };
+		A1000000000000000000000D /* VideoSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000001E /* VideoSupport.swift */; };
+		A1000000000000000000000E /* AnimatedImageSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000001F /* AnimatedImageSource.swift */; };
+		A1000000000000000000000F /* MotionPhotoSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000021 /* MotionPhotoSupport.swift */; };
+		A1000000000000000000002A /* TidyScanEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000022 /* TidyScanEngine.swift */; };
+		A1000000000000000000002B /* TidyScanDebugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000023 /* TidyScanDebugView.swift */; };
+		A1000000000000000000002C /* OrganizeControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000024 /* OrganizeControls.swift */; };
+		A1000000000000000000002E /* OrganizeGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000026 /* OrganizeGuide.swift */; };
+		A1000000000000000000002F /* HomeCollections.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000027 /* HomeCollections.swift */; };
+		A100000000000000000000A1 /* ProgressJar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000028 /* ProgressJar.swift */; };
+		B20000000000000000000001 /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = B20000000000000000000003 /* RevenueCat */; };
+		B20000000000000000000004 /* RevenueCatUI in Frameworks */ = {isa = PBXBuildFile; productRef = B20000000000000000000005 /* RevenueCatUI */; };
+		C10000000000000000000001 /* AppLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10000000000000000000011 /* AppLanguage.swift */; };
+		C10000000000000000000002 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C10000000000000000000014 /* Localizable.strings */; };
+		C10000000000000000000003 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C10000000000000000000017 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A10000000000000000000010 /* minus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = minus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10000000000000000000011 /* MinusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinusApp.swift; sourceTree = "<group>"; };
+		A10000000000000000000012 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A10000000000000000000013 /* PhotoLibraryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLibraryStore.swift; sourceTree = "<group>"; };
+		A10000000000000000000014 /* LaunchAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchAnimationView.swift; sourceTree = "<group>"; };
+		A10000000000000000000015 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A10000000000000000000016 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A10000000000000000000017 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		A10000000000000000000018 /* StoreShowcaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreShowcaseView.swift; sourceTree = "<group>"; };
+		A10000000000000000000019 /* PurchaseStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseStore.swift; sourceTree = "<group>"; };
+		A1000000000000000000001A /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+		A1000000000000000000001B /* RemoteConfigStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteConfigStore.swift; sourceTree = "<group>"; };
+		A1000000000000000000001C /* AccountStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountStore.swift; sourceTree = "<group>"; };
+		A1000000000000000000001D /* AnalyticsReporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsReporter.swift; sourceTree = "<group>"; };
+		A10000000000000000000071 /* FeedbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackView.swift; sourceTree = "<group>"; };
+		A1000000000000000000001E /* VideoSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoSupport.swift; sourceTree = "<group>"; };
+		A1000000000000000000001F /* AnimatedImageSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedImageSource.swift; sourceTree = "<group>"; };
+		A10000000000000000000021 /* MotionPhotoSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionPhotoSupport.swift; sourceTree = "<group>"; };
+		A10000000000000000000022 /* TidyScanEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TidyScanEngine.swift; sourceTree = "<group>"; };
+		A10000000000000000000023 /* TidyScanDebugView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TidyScanDebugView.swift; sourceTree = "<group>"; };
+		A10000000000000000000024 /* OrganizeControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganizeControls.swift; sourceTree = "<group>"; };
+		A10000000000000000000026 /* OrganizeGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganizeGuide.swift; sourceTree = "<group>"; };
+		A10000000000000000000027 /* HomeCollections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollections.swift; sourceTree = "<group>"; };
+		A10000000000000000000028 /* ProgressJar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressJar.swift; sourceTree = "<group>"; };
+		C10000000000000000000011 /* AppLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLanguage.swift; sourceTree = "<group>"; };
+		C10000000000000000000012 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C10000000000000000000013 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		C10000000000000000000015 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C10000000000000000000016 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A10000000000000000000020 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20000000000000000000001 /* RevenueCat in Frameworks */,
+				B20000000000000000000004 /* RevenueCatUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A10000000000000000000030 = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000031 /* minus */,
+				A10000000000000000000032 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A10000000000000000000031 /* minus */ = {
+			isa = PBXGroup;
+			children = (
+				C10000000000000000000011 /* AppLanguage.swift */,
+				A10000000000000000000011 /* MinusApp.swift */,
+				A10000000000000000000012 /* ContentView.swift */,
+				A10000000000000000000013 /* PhotoLibraryStore.swift */,
+				A10000000000000000000014 /* LaunchAnimationView.swift */,
+				A10000000000000000000017 /* OnboardingView.swift */,
+				A10000000000000000000018 /* StoreShowcaseView.swift */,
+				A10000000000000000000019 /* PurchaseStore.swift */,
+				A1000000000000000000001A /* PaywallView.swift */,
+				A1000000000000000000001B /* RemoteConfigStore.swift */,
+				A1000000000000000000001C /* AccountStore.swift */,
+				A1000000000000000000001D /* AnalyticsReporter.swift */,
+				A10000000000000000000071 /* FeedbackView.swift */,
+				A1000000000000000000001E /* VideoSupport.swift */,
+				A1000000000000000000001F /* AnimatedImageSource.swift */,
+				A10000000000000000000021 /* MotionPhotoSupport.swift */,
+				A10000000000000000000022 /* TidyScanEngine.swift */,
+				A10000000000000000000023 /* TidyScanDebugView.swift */,
+				A10000000000000000000024 /* OrganizeControls.swift */,
+				A10000000000000000000026 /* OrganizeGuide.swift */,
+				A10000000000000000000027 /* HomeCollections.swift */,
+				A10000000000000000000028 /* ProgressJar.swift */,
+				A10000000000000000000015 /* Assets.xcassets */,
+				A10000000000000000000016 /* Info.plist */,
+				C10000000000000000000014 /* Localizable.strings */,
+				C10000000000000000000017 /* InfoPlist.strings */,
+			);
+			name = minus;
+			path = TidyAlbum;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000032 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000010 /* minus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A10000000000000000000040 /* minus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10000000000000000000051 /* Build configuration list for PBXNativeTarget "minus" */;
+			buildPhases = (
+				A10000000000000000000041 /* Sources */,
+				A10000000000000000000020 /* Frameworks */,
+				A10000000000000000000042 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = minus;
+			packageProductDependencies = (
+				B20000000000000000000003 /* RevenueCat */,
+				B20000000000000000000005 /* RevenueCatUI */,
+			);
+			productName = minus;
+			productReference = A10000000000000000000010 /* minus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A10000000000000000000050 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					A10000000000000000000040 = {
+						CreatedOnToolsVersion = 26.0;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = A10000000000000000000052 /* Build configuration list for PBXProject "minus" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = A10000000000000000000030;
+			packageReferences = (
+				B20000000000000000000002 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */,
+			);
+			productRefGroup = A10000000000000000000032 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A10000000000000000000040 /* minus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A10000000000000000000042 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000005 /* Assets.xcassets in Resources */,
+				C10000000000000000000002 /* Localizable.strings in Resources */,
+				C10000000000000000000003 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A10000000000000000000041 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C10000000000000000000001 /* AppLanguage.swift in Sources */,
+				A10000000000000000000001 /* MinusApp.swift in Sources */,
+				A10000000000000000000002 /* ContentView.swift in Sources */,
+				A10000000000000000000003 /* PhotoLibraryStore.swift in Sources */,
+				A10000000000000000000004 /* LaunchAnimationView.swift in Sources */,
+				A10000000000000000000006 /* OnboardingView.swift in Sources */,
+				A10000000000000000000007 /* StoreShowcaseView.swift in Sources */,
+				A10000000000000000000008 /* PurchaseStore.swift in Sources */,
+				A10000000000000000000009 /* PaywallView.swift in Sources */,
+				A1000000000000000000000A /* RemoteConfigStore.swift in Sources */,
+				A1000000000000000000000B /* AccountStore.swift in Sources */,
+				A1000000000000000000000C /* AnalyticsReporter.swift in Sources */,
+				A10000000000000000000070 /* FeedbackView.swift in Sources */,
+				A1000000000000000000000D /* VideoSupport.swift in Sources */,
+				A1000000000000000000000E /* AnimatedImageSource.swift in Sources */,
+				A1000000000000000000000F /* MotionPhotoSupport.swift in Sources */,
+				A1000000000000000000002C /* OrganizeControls.swift in Sources */,
+				A1000000000000000000002E /* OrganizeGuide.swift in Sources */,
+				A1000000000000000000002F /* HomeCollections.swift in Sources */,
+				A100000000000000000000A1 /* ProgressJar.swift in Sources */,
+				A1000000000000000000002A /* TidyScanEngine.swift in Sources */,
+				A1000000000000000000002B /* TidyScanDebugView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C10000000000000000000014 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C10000000000000000000012 /* en */,
+				C10000000000000000000013 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		C10000000000000000000017 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C10000000000000000000015 /* en */,
+				C10000000000000000000016 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A10000000000000000000060 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A10000000000000000000061 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A10000000000000000000062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = WSDX5V2E8G;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TidyAlbum/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Minus;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "用于将整理后的照片保存到相册。";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "用于读取照片和视频，并在本机完成分类和整理。";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bieny.minus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REVENUECAT_API_KEY = appl_RAhTIIyJSXnSDRlPpzAhEfVCqzM;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A10000000000000000000063 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = WSDX5V2E8G;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TidyAlbum/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Minus;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "用于将整理后的照片保存到相册。";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "用于读取照片和视频，并在本机完成分类和整理。";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bieny.minus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REVENUECAT_API_KEY = appl_RAhTIIyJSXnSDRlPpzAhEfVCqzM;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A10000000000000000000051 /* Build configuration list for PBXNativeTarget "minus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10000000000000000000062 /* Debug */,
+				A10000000000000000000063 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10000000000000000000052 /* Build configuration list for PBXProject "minus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10000000000000000000060 /* Debug */,
+				A10000000000000000000061 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B20000000000000000000002 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RevenueCat/purchases-ios-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.80.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B20000000000000000000003 /* RevenueCat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B20000000000000000000002 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */;
+			productName = RevenueCat;
+		};
+		B20000000000000000000005 /* RevenueCatUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B20000000000000000000002 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */;
+			productName = RevenueCatUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A10000000000000000000050 /* Project object */;
+}

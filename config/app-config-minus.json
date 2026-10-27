@@ -1,0 +1,18 @@
+{
+  "config_version": 2,
+  "update": {
+    "latest_version": "1.1.0",
+    "force_update": true,
+    "release_notes": "修复若干问题，整理速度更快。",
+    "release_notes_i18n": {
+      "zh-Hans": "修复若干问题，整理速度更快。",
+      "en": "Fixed several issues and improved organizing speed."
+    },
+    "app_store_url": "https://apps.apple.com/app/id6805741070"
+  },
+  "purchase": {
+    "paywall_enabled": true,
+    "restore_enabled": true
+  }
+}
+  
